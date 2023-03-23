@@ -1,0 +1,589 @@
+
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #000;
+    background-color: #00e5e5;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0px 0px 0px 10px;
+}
+
+.fa-chevron-right{
+    font-size: 1em;
+    cursor: pointer;
+    margin: 5px;
+}
+
+h1{
+    font-size: 3.5em;
+    font-weight: 700;
+    line-height: 70px;
+    color: #fff;
+    padding: 10px;
+}
+
+h2{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px;
+}
+
+h3{
+    font-size: 2.8em;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#cb2376, #ea0eb0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+}
+
+h4{
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    padding: 10px;
+}
+
+h5{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #fff;
+}
+
+h6{
+    font-size: 1em;
+    font-weight: 700;
+    color: #101023;
+    margin: 5px 0px;
+}
+
+p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+
+/* Navbar */
+
+.navbar > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 20px 350px;
+    z-index: 1;
+}
+
+.navbar ul li{
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #fff;
+    list-style: none;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.logo{
+    width: 145px;
+    cursor: pointer;
+}
+
+.italyflag{
+    width: 45px;
+    cursor: pointer;
+    box-sizing: 0;
+    padding: 0px 0px 0px 20px;
+}
+
+.navbar-menu{
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-menu .fa-chevron-down{
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.navbar-menu .fa-caret-down{
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    margin:  0px 0px 0px 10px;
+}
+
+/* Header */
+
+Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+}
+
+/* Left Headline */
+
+.left-headline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.left-headline ul{
+    margin: 0px 0px 30px 50px;
+}
+
+.left-headline ul li{
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+
+::marker{
+    color: #e511a7;
+}
+
+/* Right Image */
+
+.right-image{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.right-image img{
+    width: 600px;
+}
+
+/* Container "Come entrare in EPICODE */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+    padding: 80px 0px;
+}
+
+.container button{
+    margin: 0px;
+}
+
+.container-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1800px;
+    padding: 40px;
+}
+
+.border-box{
+    background: linear-gradient(to right, #2f27df, #cb2376);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 285px;
+    border-radius: 15px;
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+    padding: 20px;
+    margin: 3px;
+}
+
+.box > div {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.box > p {
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+
+/* Container "I corsi in partenza */
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(68.97deg,#101023 24.3%,#192155 76.31%);
+    padding: 80px 0px;
+}
+
+.container-whitebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    padding: 40px 150px;
+}
+
+.white-box{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.white-box h4{
+    color: #101023;
+    font-weight: 700;
+}
+
+.white-box p:first-of-type{
+    color: #34363f;
+    font-weight: 700;
+    padding: 10px 0px 20px 0px;
+}
+
+.white-box button{
+    color: #fff;
+    background-color: #950484;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.white-box p:last-of-type{
+    color: #950484;
+    font-weight: 700;
+    padding: 20px 0px 10px 0px;
+}
+
+/* Container "Candidati ora! */
+
+.container3{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background: #192155;
+    padding: 80px 0px;
+}
+
+.left-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    width: 600px;
+}
+
+.left-text h2{
+    padding: 20px 0px;
+}
+
+.left-text h4{
+    padding: 20px 0px;
+}
+
+.left-text p{
+    padding: 20px 0px;
+}
+
+/* Contact Form */
+
+.right-form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-up > input{
+    width: 250px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 0px 20px 15px 0px;
+}
+
+::placeholder{
+    font-weight: 400;
+    color: rgb(206, 206, 206);
+}
+
+.form-up > input:nth-child(1), .form-up > input:nth-child(3){
+    width: 200px;
+}
+
+.asterisk{
+    color: #ea0eb0;
+}
+
+form > span{
+    font-size: 0.8em;
+    color: #fff;
+    padding: 0px 0px 10px 0px;
+}
+
+.form-middle{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 20px 0px;
+}
+
+label > input{
+    margin: 8px;
+}
+
+label > span{
+    font-size: 0.8em;
+    color: #fff;
+}
+
+label a:hover{
+    color: #e511a7;
+}
+
+select{
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 0px 20px 15px 0px;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.submit > input {
+    width: 100px;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #000;
+    background-color: #00e5e5;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+/* Container "Aziende che amano gli Epicoders"  */
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #101023;
+    padding: 80px 0px;
+}
+
+.container-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    padding: 40px;
+}
+
+.container-images img{
+    margin: 30px;
+}
+
+/* Container "I nostri Ambassador"  */
+
+.container5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+    padding: 80px 0px;
+}
+
+.left-text div i{
+    font-size: 1.2em;
+    background-color: #00e5e5;
+    padding: 20px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.left-text div i:nth-child(1){
+    color: #00e5e5;
+    background-color: transparent;
+}
+
+.right-card{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 40px 50px 40px;
+    margin: 20px;
+}
+
+.card > div span{
+    font-size: 0.8em;
+    color: #9E9FA4;
+}
+
+.border{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+    border-bottom: 1px solid #9E9FA4;
+    padding-bottom: 10px;
+}
+
+.card img{
+    width: 50px; 
+}
+
+.card i{
+    font-size: 1.7em;
+    color: #e511a7;
+}
+
+/* Container "Cambia la tua vita"  */
+
+.container6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background: linear-gradient(46.03deg,#2d27df 14.21%,#cb2376 83.82%);
+    padding: 80px 0px;
+}
+
+.container6 button{
+    margin: 40px 0px 0px 0px;
+}
+
+/* Footer */
+
+footer{
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%);
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    font-size: 0.9em;
+    color: #fff;
+    padding: 40px 0px;
+}
+
+.footer-info a{
+    color: cyan;
+}
+
+.container7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    padding: 80px 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr;
+    justify-content: center;
+    text-align: left;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item h6{
+    color: #fff;
+}
+
+.grid-item i{
+    font-size: 1.5em;
+    color: #fff;
+    padding: 10px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.grid-item a {
+    font-size: 1em;
+    color: #fff;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.grid-item a:hover {
+    color: cyan;
+}
+
+footer span{
+    display: block;
+}
